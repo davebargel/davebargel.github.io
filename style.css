@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  
+  nav a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #b3a480;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 85%; /* or any other value that suits your design */
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+    
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 1rem; */
+  }
+  
+  .image-container img {
+    /* width: 600px; */
+    /* margin-right: 1rem; */
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    width: 300px;
+    height: auto;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container {
+    background-color: white;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #cdc2ab;
+    padding: 20px;
+    width: 100%;
+  }
+
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+ .portfolio-container .image-container {
+    /* flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px; */
+    width: 100%;
+    height: auto;
+} 
+
+ @media (min-width: 1400px) {
+    .portfolio-container .image-container {
+        flex: 0 0 43%;
+        max-width: 43%;
+    }
+}
+
+footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #cdc2ab;
+}
+
+.contact-info {
+    width: 100%;
+    text-align: center;
+}
+
+.signature-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.motto-container {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
+  
